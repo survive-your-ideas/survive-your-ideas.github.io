@@ -1,0 +1,64 @@
+{
+  "readyForLaunch": true,
+  "siteName": "Survive Your Ideas Guide",
+  "shortName": "Survive Your Ideas",
+  "description": "Start with a verified Survive Your Ideas guide: learn the round loop, word effects, Index, badges, gamepasses, codes and how to check game facts before you.",
+  "language": "en",
+  "locale": "en_US",
+  "authorName": "Editorial Team",
+  "theme": {
+    "preset": "obsidian-red",
+    "overrides": {
+      "background": "0 0% 3%",
+      "foreground": "0 0% 99%",
+      "card": "0 0% 7%",
+      "card-foreground": "0 0% 99%",
+      "primary": "357 81% 39%",
+      "primary-foreground": "0 0% 100%",
+      "secondary": "0 0% 14%",
+      "muted": "0 0% 11%",
+      "muted-foreground": "0 0% 99%",
+      "border": "0 0% 19%",
+      "radius": "0px",
+      "card-shadow": "none",
+      "hero-gradient": "radial-gradient(circle at 50% 0%, hsl(357 81% 39% / .28), transparent 52%)",
+      "background-pattern": "none",
+      "font-sans": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+      "font-heading": "\"Cormorant Garamond\", Georgia, Cambria, serif",
+      "heading-weight": "600",
+      "heading-letter-spacing": "-0.02em"
+    },
+    "skin": "horror",
+    "headerStyle": "border",
+    "componentStyle": "sharp",
+    "accentColorId": "default",
+    "colorMode": "custom",
+    "background": "#070707",
+    "accent": "#B3131B",
+    "fontId": "cormorant"
+  },
+  "hosting": {
+    "siteUrl": "https://survive-your-ideas.github.io",
+    "basePath": "",
+    "customDomain": null
+  },
+  "allowedExternalDomains": [
+    "www.roblox.com"
+  ],
+  "assets": {
+    "logo": "/images/survive-your-ideas-logo.png",
+    "cover": "/images/survive-your-ideas-cover.png",
+    "openGraph": "/images/survive-your-ideas-og.svg",
+    "favicon": "/images/survive-your-ideas-logo.png"
+  },
+  "game": {
+    "name": "Survive Your Ideas",
+    "platform": "Roblox",
+    "developer": "Survive Your Ideas",
+    "genre": "",
+    "officialUrl": "https://www.roblox.com/games/77900175935766"
+  },
+  "seo": {
+    "titleTemplate": "%s | Survive Your Ideas Guide"
+  }
+}

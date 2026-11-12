@@ -1,0 +1,190 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Survive Your Ideas: Complete Wiki & Guide (2026) (Roblox)",
+  "description": "Start with a verified Survive Your Ideas guide: learn the round loop, word effects, Index, badges, gamepasses, codes and how to check game facts before you.",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Survive Your Ideas Wiki & Guide",
+    "heading": "Survive Your Ideas Wiki and Verified Beginner Guide",
+    "lead": "Survive Your Ideas is a Roblox game where one randomly chosen player types a word each round and it literally comes to life on the map. Tsunamis, dinosaurs, nukes, tacos — anything is fair game. Words stack round after round, chaos compounds, and the last player standing wins. This wiki covers the round loop, word examples, the Word Diary and Index, all eight badges, gamepasses, Meta Words, and how to stay current on updates.",
+    "supportingText": "",
+    "primaryLink": {
+      "label": "Open Codes",
+      "slug": "codes"
+    },
+    "secondaryLink": {
+      "label": "Open official game page",
+      "url": "https://www.roblox.com/games/77900175935766"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-survive-your-ideas-the-core-premise",
+      "heading": "What Is Survive Your Ideas? The Core Premise",
+      "intro": "Survive Your Ideas is a Roblox party-survival game built around a single mechanic: each round, one randomly selected player types any word, and that word physically comes to life on the map. The game does not restrict your vocabulary — tsunamis, dinosaurs, nukes, and tacos are all equally valid inputs, and each one spawns whatever hazard or creature the word represents.",
+      "paragraphs": [
+        "What makes the game escalate is the stacking system. Words do not reset between rounds; every effect introduced by earlier writers stays active while new ones pile on top. A map that started with a rogue dinosaur might also have an active tsunami and a nuke by the third round. The combined chaos grows until only one player is left standing, and that player wins the match."
+      ],
+      "table": {
+        "caption": "Survive Your Ideas Quick Reference & Progression Overview",
+        "columns": [
+          "Progression Stage",
+          "Core Objective",
+          "Key Mechanic",
+          "Player Priority"
+        ],
+        "rows": [
+          [
+            "Early Game Setup",
+            "Learn Survive Your Ideas core loop",
+            "Initial resource & starter unlock",
+            "Complete tutorial loop before spending currency"
+          ],
+          [
+            "Mid Game Scaling",
+            "Unlock higher multiplier tiers",
+            "Loadout / upgrade synergy",
+            "Focus on repeatable milestones and efficiency"
+          ],
+          [
+            "Endgame & Updates",
+            "Bosses, events, and new worlds",
+            "High-tier drops & patch preparation",
+            "Track official update logs and optimize builds"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "the-match-loop-writer-word-and-survival",
+      "heading": "The Match Loop: Writer, Word, and Survival",
+      "intro": "Each round begins with the game randomly selecting one player to become the writer. That player gets a short window to type any word into the input prompt — there are no restrictions on what they can submit.",
+      "paragraphs": [
+        "Once the word is confirmed, the game spawns whatever the word represents directly into the match environment. The effect plays out in real time while every other player scrambles to avoid it.",
+        "After the round resolves, the next random writer is chosen and the cycle repeats — but the previous round's hazard does not disappear. Words stack, so by the mid-game the map is simultaneously dealing with everything typed so far. Surviving means dealing with an accumulating pile of threats, not just the latest one.",
+        "The match ends when only one player remains alive. If you want a full breakdown of how to position and react as hazards pile up, the survival tips page covers round-by-round strategy."
+      ],
+      "steps": [
+        {
+          "heading": "Check Current Survive Your Ideas Requirements",
+          "description": "Review the active mechanics and prerequisites inside Survive Your Ideas before committing resources."
+        },
+        {
+          "heading": "Complete the Core Progression Loop",
+          "description": "Follow the primary objective sequence to unlock the next multiplier, zone, or equipment slot."
+        },
+        {
+          "heading": "Verify Post-Update Changes",
+          "description": "Re-check the comparison table and official Survive Your Ideas patch notes whenever a new update drops."
+        }
+      ]
+    },
+    {
+      "id": "four-official-word-examples-and-what-they-mean",
+      "heading": "Four Official Word Examples and What They Mean",
+      "intro": "The official game description highlights four diverse examples: tsunami, dinosaur, nuke, and tacos. Tsunami represents environmental disasters that flood or reshape the map. Dinosaur demonstrates creature spawns that chase and attack players. Nuke covers instant or area-wide destruction effects. Tacos show that absurd, unpredictable objects can appear and interact with the arena in surprising ways.",
+      "paragraphs": [
+        "These examples span the full spectrum from lethal natural forces to hostile mobs to chaotic food items. Word choice directly determines whether the round introduces a persistent hazard, a moving threat, or a one-time explosion. Understanding this range helps new players anticipate what might spawn next and why certain words create more danger than others. For detailed effect breakdowns, tested word lists, and optimal typing strategies, see the best words guide."
+      ]
+    },
+    {
+      "id": "gamepasses-meta-words-and-tips-for-new-players",
+      "heading": "Gamepasses, Meta Words, and Tips for New Players",
+      "intro": "Specific gamepasses for Survive Your Ideas have not been officially documented. Meta Words are also unconfirmed: whether they function as in-game commands or round modifiers has not been stated by the developers. Watch the game's Roblox page for announcements as the game continues to update.",
+      "paragraphs": [
+        "For your first matches, track what has been spawned. Each round adds another obstacle without removing the previous ones, so a tsunami from round one can still be active when a dinosaur appears in round two. Keep moving and avoid overlapping hazards. The developers recommend liking and favoriting the game to access new words early. For a full walkthrough, see the beginner guide, and for deeper strategies, the survival tips page."
+      ],
+      "bullets": [
+        "Track every spawned word so you know which hazards are still active",
+        "Stay mobile and avoid overlapping danger zones",
+        "Like and favorite the game to unlock new words early"
+      ]
+    },
+    {
+      "id": "approved-player-needs",
+      "eyebrow": "Guides & Wiki",
+      "heading": "Explore Survive Your Ideas Guides & Resources",
+      "intro": "Browse our dedicated Survive Your Ideas guides covering active redeem codes, beginner progression, tier lists, and core gameplay mechanics.",
+      "links": [
+        {
+          "label": "Survive Your Ideas Codes",
+          "slug": "codes",
+          "description": "Check reported Survive Your Ideas codes, their verification status, expired entries and redeem steps. Learn where to check updates and progress without a code."
+        },
+        {
+          "label": "Survive Your Ideas Best Words",
+          "slug": "word",
+          "description": "Compare Survive Your Ideas words and documented effects, learn about the Index, and troubleshoot unexpected results. Get practical advice for testing words."
+        },
+        {
+          "label": "Survive Your Ideas Index",
+          "slug": "index",
+          "description": "Learn what the Survive Your Ideas Index records, how to confirm entries and test words safely. Follow a practical routine and understand its connection."
+        },
+        {
+          "label": "Survive Your Ideas Beginner Guide",
+          "slug": "beginner-guide",
+          "description": "Learn how to play Survive Your Ideas: find the right Roblox experience, understand the Writer and word events, read controls, and explore Cash, Items, Index."
+        },
+        {
+          "label": "Survive Your Ideas Survival Tips",
+          "slug": "survival",
+          "description": "Use this Survive Your Ideas survival guide to read hazards, assess terrain and cover, and make safer choices during a round. Learn the core loop and review."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do you play Survive Your Ideas on Roblox?",
+      "answer": "Each round, one player is randomly picked to type any word they want. That word then spawns as a real hazard, creature, or object on the map. All surviving players must dodge or outlast it. Words keep stacking as the round progresses, and whoever is the last player standing wins the match."
+    },
+    {
+      "question": "What kinds of words can come to life?",
+      "answer": "The game supports a wide range, from large-scale disasters like tsunamis and nukes, to creatures like dinosaurs, to everyday objects like tacos. The variety is intentional — unpredictability is a core part of the experience, and the word pool continues to expand as the game updates."
+    },
+    {
+      "question": "What does the Word Diary record?",
+      "answer": "The Word Diary logs the words you encounter across your sessions, acting as a personal history of effects you have survived or witnessed. It feeds into broader Index completion goals. The Index guide page covers exactly how many entries exist and how to work toward full completion."
+    },
+    {
+      "question": "Are Meta Words the same as executor scripts?",
+      "answer": "No. Meta Words are in-game commands or modifiers built into Survive Your Ideas itself — they are a legitimate feature, not a third-party exploit or script. Using executor scripts violates Roblox Terms of Service and can result in a ban. Only in-game mechanics apply here."
+    },
+    {
+      "question": "Where can I check Survive Your Ideas updates and game facts?",
+      "answer": "The official Roblox game page is the most reliable source for new word additions and patch notes. Liking and favouriting the game on Roblox also ensures you see announcements early, as the developer calls this out directly in the game description."
+    }
+  ],
+  "screenshots": [],
+  "sources": [
+    {
+      "url": "https://www.roblox.com/games/77900175935766",
+      "title": "Survive Your Ideas",
+      "sourceType": "official"
+    },
+    {
+      "url": "https://surviveyourideas.wiki/",
+      "title": "Survive Your Ideas",
+      "sourceType": "guide"
+    },
+    {
+      "url": "https://surviveyourideas-wiki.wiki/",
+      "title": "Survive Your Ideas",
+      "sourceType": "guide"
+    },
+    {
+      "url": "https://surviveyourideaswiki.wiki/",
+      "title": "Survive Your Ideas",
+      "sourceType": "guide"
+    },
+    {
+      "url": "https://www.roblox.com/games/77900175935766",
+      "title": "Survive Your Ideas Official Mechanics & Early-Bird Reference",
+      "sourceType": "guide"
+    }
+  ],
+  "lastReviewed": "2026-11-11"
+}
