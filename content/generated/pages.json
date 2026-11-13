@@ -288,125 +288,161 @@
     "hero": {
       "eyebrow": "Guide",
       "heading": "Survive Your Ideas Index: Entries, Testing, and Completion Guide",
-      "lead": "The Survive Your Ideas Index is the game's built-in record of every word you have typed across your matches. Each time you are selected as the round's writer and submit a word, that entry is logged. Tracking your Index helps you understand which words produce effects, which remain untested, and how word variety grows your collection over time. This guide covers the documented word examples, a practical testing approach, and how to expand your Index without disrupting survival rounds."
+      "lead": "In Survive Your Ideas, the Index is the collection to check when you want to see which words the game has recognized for you. When you get a Writer turn, try a word you are missing, then look for its entry in the lobby after the match.\n\nStart with the examples from the official Roblox description: tsunami, dinosaur, nuke, and tacos. Use the table below to choose a word and decide what to check after submitting it.\n\nKeep a short list of missing entries and test one at a time while the map is manageable. If a discovery awards Cash, check the lobby’s Meta Words menu to see what that balance can unlock.",
+      "leadLink": {
+        "label": "Survive Your Ideas",
+        "slug": ""
+      }
     },
     "sections": [
       {
-        "id": "what-the-index-records-and-how-entries-are-added",
-        "heading": "What the Index Records and How Entries Are Added",
-        "intro": "The Index logs every word you submit during your turn as the round's writer. Each match, one player is randomly selected to type a word, and whatever you enter is recorded as a new entry the moment it is submitted — regardless of what happens next.",
+        "id": "why-the-index-matters",
+        "heading": "Why the Survive Your Ideas Index Matters for Long-Term Progress",
+        "intro": "The Index gives you a goal that carries across matches. Pick one missing word before you queue, then use the next suitable Writer turn to find out how it behaves. Over time you build a collection and learn which effects you can plan around when another player types the same word."
+      },
+      {
+        "id": "what-the-index-records",
+        "heading": "What the Index Records and What It Does Not",
+        "intro": "Use the lobby Index to check which supported words you have discovered. Compare its entries before and after a Writer turn. If the game displays a different name from what you typed, record the name that actually appears in the Index.",
         "paragraphs": [
-          "This distinction matters: the Index tracks your input history, not the outcome of the word. A word that eliminates every other player and a word that produces a minor effect both earn an identical entry. There is no outcome score, damage rating, or survival result attached to any record.",
-          "Entries accumulate across sessions, so each time you are selected as writer you have another opportunity to add to the collection. Words you have already submitted will appear in your history; words you have never typed will not, no matter how many rounds you have played without being chosen."
-        ],
+          "A submitted word, a visible effect, and a newly unlocked entry are three separate observations. If you see a result on the map but the Index stays unchanged, leave the word marked as unconfirmed. Keep survival time and the effect you saw in your own notes so you can compare attempts later."
+        ]
+      },
+      {
+        "id": "documented-entries",
+        "heading": "Documented Entries and Words to Confirm In-Game",
+        "intro": "Roblox’s official game description names these four examples. Use their spellings as a starting point and verify the entry and any reward in your own Index.",
         "table": {
-          "caption": "Survive Your Ideas index Quick Reference & Progression Overview",
+          "caption": "Official word examples and what to check on your Writer turn",
           "columns": [
-            "Progression Stage",
-            "Core Objective",
-            "Key Mechanic",
-            "Player Priority"
+            "Writer input",
+            "What to watch for",
+            "When to try it",
+            "Index check"
           ],
           "rows": [
             [
-              "Early Game Setup",
-              "Learn Survive Your Ideas core loop",
-              "Initial resource & starter unlock",
-              "Complete tutorial loop before spending currency"
+              "tsunami",
+              "A wave and the direction it travels",
+              "When you have reachable high ground",
+              "Look for the tsunami entry after the match."
             ],
             [
-              "Mid Game Scaling",
-              "Unlock higher multiplier tiers",
-              "Loadout / upgrade synergy",
-              "Focus on repeatable milestones and efficiency"
+              "dinosaur",
+              "Where the creature spawns and moves",
+              "When you have room to move away",
+              "Check whether dinosaur switched to discovered."
             ],
             [
-              "Endgame & Updates",
-              "Bosses, events, and new worlds",
-              "High-tier drops & patch preparation",
-              "Track official update logs and optimize builds"
+              "nuke",
+              "The warning and how much of the map is affected",
+              "In a match where you can risk an early exit",
+              "Check the nuke entry from the lobby."
+            ],
+            [
+              "tacos",
+              "Where tacos appear and what happens nearby",
+              "Early in a match with clear sightlines",
+              "Check for the exact tacos entry and note any alternate spelling shown."
             ]
           ]
-        }
+        },
+        "links": [
+          {
+            "label": "Survive Your Ideas best words",
+            "slug": "word",
+            "description": "Compare documented effects before choosing what to type."
+          }
+        ]
       },
       {
-        "id": "four-documented-words-to-test-and-confirm-in-your-index",
-        "heading": "Four Documented Words to Test and Confirm in Your Index",
-        "intro": "The game's official description calls out four words by name: tsunami, dinosaur, nuke, and tacos. These are the clearest confirmed examples of words that produce a visible in-game event when submitted, making them reliable starting points if you want to verify early Index entries.",
-        "paragraphs": [
-          "Each of the four represents a different scale of hazard. A tsunami brings a wave-based threat, a dinosaur introduces a creature, a nuke delivers area damage, and tacos land somewhere on the chaotic end of the spectrum. Testing all four across separate rounds gives you a concrete baseline for how the word-to-effect system behaves before you branch into less predictable inputs.",
-          "Because the Index logs what you type rather than what survives or scores, submitting any of these four when you are selected as the round's writer is enough to register the entry. For a deeper look at how word effects compare across categories, the best words guide covers a wider tested range."
-        ],
+        "id": "index-testing-checklist",
+        "heading": "A Step-by-Step Route for Testing Words and Tracking Entries",
         "steps": [
           {
-            "heading": "Check Current Survive Your Ideas index Requirements",
-            "description": "Review the active mechanics and prerequisites inside Survive Your Ideas before committing resources."
+            "heading": "Pick a missing word",
+            "description": "Open the Index in the lobby and choose one undiscovered entry. Write down the spelling if it is visible."
           },
           {
-            "heading": "Complete the Core Progression Loop",
-            "description": "Follow the primary objective sequence to unlock the next multiplier, zone, or equipment slot."
+            "heading": "Wait for a suitable Writer turn",
+            "description": "Choose a moment with few active hazards and an open escape route. Keep a familiar backup word for a crowded round."
           },
           {
-            "heading": "Verify Post-Update Changes",
-            "description": "Re-check the comparison table and official Survive Your Ideas patch notes whenever a new update drops."
+            "heading": "Submit one word and watch",
+            "description": "Note the input, the effect that appeared, and any discovery or Cash notification. Move to safety as soon as you see the effect."
+          },
+          {
+            "heading": "Check the Index after the match",
+            "description": "Look for a newly discovered entry under the displayed name. Log what changed and leave unclear results pending."
+          },
+          {
+            "heading": "Pick the next gap",
+            "description": "Try another missing entry on a later Writer turn. Recheck an unclear result only when you can observe it under better conditions."
           }
-        ],
-        "bullets": [
-          "tsunami — wave-based environmental hazard",
-          "dinosaur — creature spawned into the round",
-          "nuke — high-impact area threat",
-          "tacos — unpredictable or novelty effect"
         ]
       },
       {
-        "id": "a-practical-route-for-testing-new-words-without-disrupting-rounds",
-        "heading": "A Practical Route for Testing New Words Without Disrupting Rounds",
-        "intro": "Because words stack and chaos compounds across rounds, your testing window narrows the longer a match runs. The safest moment to try an unfamiliar word is early in the match, when fewer hazards are already active and the arena is still manageable. If the word produces a low-impact effect, you have noted it and lost little. If it turns out to be high-impact, you have that information for future matches.",
+        "id": "test-without-disrupting-a-round",
+        "heading": "How to Test New Words Without Disrupting a Round",
+        "intro": "Test early in a match, when fewer effects are active and you can tell what came from your input. Before writing, find open ground or an exit. Save large hazards such as tsunami or nuke for matches where you can accept the risk to everyone still alive.",
         "paragraphs": [
-          "Save words you already know to be destructive — the documented examples like nuke or tsunami fit this category — for rounds where you are willing to accept the risk or where aggressive play serves your goal. Using a confirmed high-impact word early when other hazards are already stacking is one of the more common ways players eliminate themselves before they intend to.",
-          "One practical habit is to group unfamiliar words by rough expected intensity before a session: neutral or food-type words, environmental or weather words, and large-entity or weapon words. Work through one category at a time so your Index grows in an organized way and you can compare outcomes within similar types. How exactly each word manifests is something the game does not confirm in advance, so observed outcomes are the only reliable data you can collect."
+          "If the map is already crowded or your group is trying to win, use a familiar word and carry the experiment into the next match. Check the Index from the lobby so you can keep watching the arena while you are alive."
         ],
-        "bullets": [
-          "Test unknown words early in a match when hazard density is still low",
-          "Reserve known high-impact words for later rounds or when you are ready to accept the risk",
-          "Group new words by rough category before a session to compare outcomes across similar types",
-          "Treat each observed result as your personal Index entry — the game does not preview effects"
+        "links": [
+          {
+            "label": "Survive Your Ideas beginner guide",
+            "slug": "beginner-guide",
+            "description": "Review Writer turns, the round loop, and survival basics."
+          }
         ]
       },
       {
-        "id": "growing-your-index-through-word-variety-and-match-rotation",
-        "heading": "Growing Your Index Through Word Variety and Match Rotation",
-        "intro": "Your Index expands by typing different words across multiple matches. Since one random player writes each round, you will not control every word submission—but over time, as you participate in many matches, you accumulate entries for words you have typed. The key to a comprehensive Index is deliberate variety: test words from different categories in separate sessions rather than repeating the same word repeatedly.",
+        "id": "cash-and-meta-words",
+        "heading": "How Index Progress Connects to Cash and Meta Words",
+        "intro": "New recognized entries can earn one-time Cash rewards. If you are tracking rewards, look for a discovery notification and compare it with the match payout shown in the lobby. Confirm the amount in your own game before using it to budget.",
         "paragraphs": [
-          "A practical approach is to group words by theme or effect type and rotate through categories across your matches. For example, dedicate one session to nature words (tsunami, dinosaur, forest, volcano), another to food items (tacos, pizza, ice cream), and a third to abstract or destructive concepts (nuke, chaos, void). This rotation ensures your Index builds breadth while letting you observe how different word families behave in the game environment.",
-          "Early in each match, when the chaos level is still manageable, submit words you want to log and observe. This gives you clearer feedback on their effects before the hazards become overwhelming. Once you have tested a word and confirmed its behavior, you can note it mentally or externally (in a personal document or note app) as a completed Index entry. Over many matches, this structured testing transforms your Index from a scattered collection into an organized record of predictable word outcomes.",
-          "Remember that your Index is cumulative—every word you type as the selected writer is recorded, regardless of whether you survive that round. Even if a word causes immediate chaos and eliminates you, it still counts as an Index entry. This means you can afford to experiment with high-risk words late in a match when survival is already uncertain, freeing you to test bold ideas without sacrificing early-round safety."
+          "Some Meta Words can be unlocked with Cash from the lobby’s Meta Words menu. Check the listed cost and unlock status before spending. When you use an unlocked Meta Word on your Writer turn, enter it with the slash shown in the menu."
+        ],
+        "links": [
+          {
+            "label": "Survive Your Ideas codes",
+            "slug": "codes",
+            "description": "Check redemption instructions and the latest code verification notes."
+          }
+        ]
+      },
+      {
+        "id": "repeatable-index-routine",
+        "heading": "Survival Habits and a Repeatable Index Routine",
+        "intro": "Before joining a match, pick one missing word and one reliable backup. When someone else writes, keep moving and watch where each effect starts. When you write, use your test word only if you can observe its effect and still reach safety.",
+        "paragraphs": [
+          "After the match, note the word you typed, the entry name shown, and any Cash reward you saw. Repeat with a missing entry from another category. Use the collection shown in your current game to decide what still needs work."
         ]
       }
     ],
     "faq": [
       {
         "question": "What does the Survive Your Ideas Index record?",
-        "answer": "The Index records every word you have typed when selected as the round's writer. It functions as a personal log of your input history across all matches. Each new word you submit adds an entry, allowing you to track which words you have tested and building a reference for future rounds. The Index does not record effects or outcomes, only the words themselves."
+        "answer": "The Index shows which supported words you have discovered. After a Writer turn, check the lobby Index to see whether the game added an entry and which name it used."
       },
       {
         "question": "How do I complete the Index in Survive Your Ideas?",
-        "answer": "Index completion depends on typing a wide variety of words across your matches. Each time you are selected as the writer, submit a word you have not used before to add a new entry. Focus on exploring different categories — creatures, disasters, objects, and abstract concepts — to grow your Index steadily. Specific completion rewards have not been officially documented."
+        "answer": "Use the current in-game Index as your checklist. Pick a missing word, submit it on your Writer turn, and check that the entry unlocked after the match. Repeat for the remaining entries shown in your game."
       },
       {
-        "question": "Which words should I test first to start building my Index?",
-        "answer": "Start with the four documented examples: tsunami, dinosaur, nuke, and tacos. These words are confirmed to produce effects and give you a baseline for how the game interprets input. Tsunami and nuke create map-wide hazards, dinosaur spawns a creature, and tacos demonstrate object spawns. Testing these first helps you understand effect categories before experimenting with new words."
+        "question": "How can I test new words without disrupting a round?",
+        "answer": "Try one new word when few effects are active and you have a clear escape route. Keep a familiar backup for crowded rounds and save large hazards for matches where you can risk an early exit."
+      },
+      {
+        "question": "How does Index progress connect to Cash and Meta Words?",
+        "answer": "New recognized entries can pay one-time Cash rewards. Some Meta Words are bought separately with Cash. Check your balance and the current price in the lobby’s Meta Words menu."
       }
     ],
     "screenshots": [],
     "relatedSlugs": [
-      "",
-      "codes",
-      "word",
-      "beginner-guide",
       "survival"
     ],
-    "lastReviewed": "2026-11-11"
+    "lastReviewed": "2026-11-13"
   },
   {
     "enabled": true,

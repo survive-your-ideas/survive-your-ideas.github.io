@@ -179,6 +179,7 @@ export interface SeoPageDefinition {
     eyebrow?: string;
     heading: string;
     lead: string;
+    leadLink?: InternalLink;
   };
   sections: PageSection[];
   faq?: FaqItem[];

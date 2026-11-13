@@ -1,9 +1,24 @@
-import { copyFileSync, existsSync, mkdirSync, readdirSync, statSync, writeFileSync, readFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readdirSync, renameSync, statSync, writeFileSync, readFileSync } from "node:fs";
 import { dirname, join, relative, sep } from "node:path";
 
 const root = process.cwd();
 const output = join(root, "out");
 const publicDir = join(root, "public");
+const pages = JSON.parse(readFileSync(join(root, "content/generated/pages.json"), "utf8"));
+
+// Next.js normalizes /index to /index/index when copying the prerendered
+// HTML and RSC payload. The client-router segments already use /index/.
+if (pages.some((page) => page.slug === "index" && page.enabled)) {
+  for (const filename of ["index.html", "index.txt"]) {
+    const misplaced = join(output, "index", "index", filename);
+    const target = join(output, "index", filename);
+    if (existsSync(misplaced)) {
+      if (existsSync(target)) throw new Error(`Conflicting exports for /index/${filename}`);
+      renameSync(misplaced, target);
+    }
+    if (!existsSync(target)) throw new Error(`Missing static export for /index/${filename}`);
+  }
+}
 
 writeFileSync(join(output, ".nojekyll"), "", "utf8");
 

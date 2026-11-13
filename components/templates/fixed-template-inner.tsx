@@ -21,6 +21,7 @@ function arcadeArticle(page:SeoPageDefinition):string{
 }
 export function FixedTemplateInner({page}:{page:SeoPageDefinition}){
   const skin=siteSkin(),related=getRelatedPages(page);
+  const { lead, leadLink } = page.hero;
   // Fixed specimen's demo article/empty headings are never included in real pages.
   return <><JsonLd data={pageSchemas(page)}/>
     <main className="site-container mx-auto space-y-12 py-12 sm:py-16">
@@ -28,8 +29,19 @@ export function FixedTemplateInner({page}:{page:SeoPageDefinition}){
         <Breadcrumbs slug={page.slug} current={page.hero.heading}/>
         {page.hero.eyebrow?<p className="eyebrow">{page.hero.eyebrow}</p>:null}
         <h1>{page.hero.heading}</h1>
-        <p className="mt-2 text-xs text-muted-foreground">Last updated: <time dateTime={page.lastReviewed}>{page.lastReviewed}</time> · Part of the <Link href={routePath("")} className="underline">{siteConfig.game.name} guide</Link></p>
-        <p className="mt-6 max-w-3xl text-lg leading-8">{page.hero.lead}</p>
+        <p className="mt-2 text-xs text-muted-foreground">Last updated: <time dateTime={page.lastReviewed}>{page.lastReviewed}</time>{!leadLink && <> · Part of the <Link href={routePath("")} className="underline">{siteConfig.game.name} guide</Link></>}</p>
+        {lead.split("\n\n").map((paragraph, index) => {
+          const linkStart = index === 0 && leadLink ? paragraph.indexOf(leadLink.label) : -1;
+          return (
+            <p key={paragraph} className="mt-6 max-w-3xl text-lg leading-8">
+              {leadLink && linkStart >= 0 ? <>
+                {paragraph.slice(0, linkStart)}
+                <Link href={routePath(leadLink.slug)} className="underline">{leadLink.label}</Link>
+                {paragraph.slice(linkStart + leadLink.label.length)}
+              </> : paragraph}
+            </p>
+          );
+        })}
       </section>
       <NativeAdSlot/>
       <PageSections sections={page.sections.filter(s=>Boolean(s.heading?.trim()))}/>
