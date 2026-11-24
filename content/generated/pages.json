@@ -272,7 +272,9 @@
       "codes",
       "index",
       "beginner-guide",
-      "survival"
+      "survival",
+      "thinker",
+      "op"
     ],
     "lastReviewed": "2026-11-11"
   },
@@ -440,7 +442,9 @@
     ],
     "screenshots": [],
     "relatedSlugs": [
-      "survival"
+      "survival",
+      "thinker",
+      "op"
     ],
     "lastReviewed": "2026-11-13"
   },
@@ -581,7 +585,8 @@
       "codes",
       "word",
       "index",
-      "survival"
+      "survival",
+      "op"
     ],
     "lastReviewed": "2026-11-11"
   },
@@ -724,8 +729,200 @@
       "codes",
       "word",
       "index",
-      "beginner-guide"
+      "beginner-guide",
+      "thinker"
     ],
     "lastReviewed": "2026-11-11"
+  },
+  {
+    "enabled": true,
+    "slug": "thinker",
+    "pageType": "guide",
+    "navLabel": "Thinker",
+    "title": "The Thinker Survive Your Ideas Guide (2026) – How It Works",
+    "description": "The Thinker Survive Your Ideas explained on Roblox: how it works, what it affects, the best way to use it and mistakes to avoid. Includes full tables and tips.",
+    "navVisible": true,
+    "hero": {
+      "heading": "The Thinker Survive Your Ideas Guide: How It Works & Best Tips",
+      "lead": "The Thinker in Survive Your Ideas is best understood by what you can do on a turn: if the game picks you and gives you a word prompt, you’re the player who gets to write. The beginner guide calls that player the Writer; a separate Thinker unlock or progression bonus isn’t established. Before you submit a word, decide whether you’re trying to stay alive or check off an Index entry. Look for an exit if you’re playing to win, or pick one missing word if you’re collecting. The table and steps below help you make that choice and check what happened afterward.",
+      "eyebrow": "Guide"
+    },
+    "sections": [
+      {
+        "id": "how-the-word-writing-turn-works-in-survive-your-ideas",
+        "heading": "How the Word-Writing Turn Works in Survive Your Ideas",
+        "intro": "The game selects one player at random to write a word each round. When the word-entry prompt appears for you, you are the selected Writer: type a word and submit it. The word then comes to life on the map, and its effects remain part of the match as later rounds add more words. The round continues until only one player is alive, and that player wins.",
+        "paragraphs": [
+          "If the prompt is not yours, you do not choose the round’s word. Watch the map as the new effect appears and account for the hazards already in play. Because effects stack, a later word does not replace the earlier ones; the conditions can become more dangerous as the match goes on.",
+          "The Thinker is not identified as a separate role or upgrade. In practice, the word-entry prompt is the useful signal: it tells you when you have the writing turn. For the full controls and round walkthrough, see the beginner guide."
+        ],
+        "table": {
+          "caption": "The Thinker Survive Your Ideas at a Glance",
+          "columns": [
+            "Topic",
+            "What you'll find"
+          ],
+          "rows": [
+            [
+              "How the Word-Writing Turn Works in Survive Your Ideas",
+              "The game selects one player at random to write a word each round."
+            ],
+            [
+              "Pick a Word Based on Your Goal and Your Exit Route",
+              "When you're playing to survive, choose a word with your next move in mind."
+            ],
+            [
+              "Check the Index After Testing a Missing Word",
+              "If you are collecting word discoveries, use the Index as your progress check."
+            ],
+            [
+              "What to Do When Your Word Has No Obvious Effect",
+              "A word’s result is easiest to judge when you can point to a visible change on the map."
+            ]
+          ]
+        },
+        "bullets": [
+          "When the word-entry prompt appears for you, choose and submit a word as the Writer.",
+          "When another player gets the prompt, watch for the new map effect and keep earlier hazards in mind.",
+          "The words accumulate across rounds; the last player alive wins."
+        ]
+      },
+      {
+        "id": "pick-a-word-based-on-your-goal-and-your-exit-route",
+        "heading": "Pick a Word Based on Your Goal and Your Exit Route",
+        "intro": "When you're playing to survive, choose a word with your next move in mind. An effect that reaches across the map can threaten your position as well as other players'. Before you submit, pick a spot you can move toward and check whether a hazard already blocks the way. If the effect you expect could cut off that route too, choose a word that leaves you more room to move.",
+        "paragraphs": [
+          "When you're trying to learn what a word does, take an early opportunity if the map is still relatively quiet. Pick out what's already happening before you type. For example, if a hazard is moving across one side of the map, note where it is and which way it's going. That gives you a point of comparison when the new effect appears. The more effects are already active, the harder it is to tell what your word added.",
+          "For help judging which routes are worth keeping open, see the survival guide's advice on terrain and hazard positioning."
+        ],
+        "bullets": [
+          "If your goal is to survive, favor a word whose effect you know how to move away from. Pick a backup direction before submitting so you can move promptly if your first route closes.",
+          "If your goal is to test a word, choose it before the prompt and wait for a turn with fewer hazards to track. If the map is already crowded, save the test for another match rather than trying to watch several effects at once."
+        ]
+      },
+      {
+        "id": "check-the-index-after-testing-a-missing-word",
+        "heading": "Check the Index After Testing a Missing Word",
+        "intro": "If you are collecting word discoveries, use the Index as your progress check. Before a match, open the Index in the lobby and choose one word that does not have an entry. When you get a Writer turn, submit that word, then return to the lobby after the match and look for its entry.",
+        "paragraphs": [
+          "Treat the Index entry itself as confirmation that the word was recorded. Seeing an effect during a round does not by itself confirm that you earned a collection entry or a reward. Checking one missing word at a time also makes it easier to see what changed between visits.",
+          "For more detail on reading and tracking discoveries, see the Survive Your Ideas Index guide."
+        ],
+        "bullets": [
+          "Before playing, check the lobby Index and pick one missing word.",
+          "Use that word when you receive a suitable Writer prompt.",
+          "After the match, revisit the Index and check whether the entry appears."
+        ]
+      },
+      {
+        "id": "what-to-do-when-your-word-has-no-obvious-effect",
+        "heading": "What to Do When Your Word Has No Obvious Effect",
+        "intro": "A word’s result is easiest to judge when you can point to a visible change on the map. If something appears or the danger around you shifts, respond to that change first: move away from an approaching hazard and reassess your position. In Survive Your Ideas, hazards can accumulate as more words are used, so the map may already contain effects from earlier turns.",
+        "paragraphs": [
+          "Sometimes the map changes, but it is not clear which word caused what you are seeing. Do not treat an unclear result as proof that your word did nothing, and do not stand still just to watch for a possible effect. Make your next move based on the hazards you can actually see, then keep checking the map as the situation develops.",
+          "For a later comparison, try a word named in the game description, such as tsunami, dinosaur, nuke, or tacos, when you get another suitable turn. These are examples the description gives, not a promise that each will produce a particular visible result. Observe what appears while staying ready to move; the examples and word guidance are collected in the Survive Your Ideas word guide at /word/.",
+          "A useful check is to separate observation from attribution: note the visible change, react to its position, and only then consider whether it may relate to your submission. When several hazards are active, avoid drawing a firm conclusion from timing alone. Your immediate priority is responding to the map, not proving which word produced each effect."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Thinker work in Survive Your Ideas?",
+        "answer": "Watch for the word-entry prompt. If it appears for you, you have the writing turn; if another player is picked, you respond to their word instead. The game picks one writer at random each round, so don’t plan around getting the next turn."
+      },
+      {
+        "question": "Is Thinker worth it in Survive Your Ideas?",
+        "answer": "A writing turn is useful if you have a specific goal. For collection progress, try a word missing from your Index and check it after the match. For a win, only choose an effect you’re prepared to deal with yourself; a word that reaches more of the map can leave you with fewer places to go."
+      },
+      {
+        "question": "What is the best Thinker strategy in Survive Your Ideas?",
+        "answer": "Decide what you want from the turn before the prompt appears. For a survival attempt, identify where you’ll move before you type, then adjust when you see what changes on the map. If you’re testing a word, use an early turn when there are fewer existing effects to confuse the result."
+      }
+    ],
+    "relatedSlugs": [
+      "survival",
+      "word",
+      "index"
+    ],
+    "lastReviewed": "2026-11-24",
+    "parentSlug": "",
+    "screenshots": []
+  },
+  {
+    "enabled": true,
+    "slug": "op",
+    "pageType": "guide",
+    "navLabel": "OP",
+    "title": "Survive Your Ideas OP Explained (2026) – Mechanics",
+    "description": "OP in Survive Your Ideas on Roblox: how it works, step-by-step tips and what experienced players do differently. Includes updated tables and progression tips.",
+    "navVisible": true,
+    "hero": {
+      "heading": "Survive Your Ideas OP Explained: Mechanics, Tips & Mistakes",
+      "lead": "Survive Your Ideas OP has no separately described mechanic in the available game description. The description explains a round-based survival game: one randomly selected player writes a word, it comes to life, and words stack as rounds continue. It names tsunami, dinosaur, nuke, and tacos as examples, but gives no OP-specific stats, unlocks, or advantage. The sections below separate those confirmed rules from what the description does not establish, so you can judge claims about OP without treating an unverified strategy as a game feature.",
+      "eyebrow": "Guide"
+    },
+    "sections": [
+      {
+        "id": "what-the-official-description-says-about-each-round",
+        "heading": "What the Official Description Says About Each Round",
+        "intro": "Survive Your Ideas picks one player at random each round. That player chooses the word, and the game brings it to life. Everyone else still has to survive that round, even though they didn't choose what appeared.",
+        "paragraphs": [
+          "A new word adds to the words already in play rather than replacing them. As the rounds go on, pay attention to what carried over as well as what just appeared. Writing a word isn't the win condition: the winner is the last player still alive.",
+          "The official Roblox description illustrates the range of entries with tsunami, dinosaur, nuke, and tacos. It doesn't explain what each example does once it appears."
+        ],
+        "table": {
+          "caption": "Survive Your Ideas OP at a Glance",
+          "columns": [
+            "Topic",
+            "What you'll find"
+          ],
+          "rows": [
+            [
+              "What the Official Description Says About Each Round",
+              "Survive Your Ideas picks one player at random each round."
+            ],
+            [
+              "How to Assess an OP Claim In-Game",
+              "Treat “OP” as a player’s judgment unless the claim points to a specific game feature."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "how-to-assess-an-op-claim-in-game",
+        "heading": "How to Assess an OP Claim In-Game",
+        "intro": "Treat “OP” as a player’s judgment unless the claim points to a specific game feature. “That word is OP” might mean it was hard to survive in one match. “OP gives you a bonus” is a different claim: it describes a rule the game would need to show or explain. The official description doesn’t identify an OP bonus, so don’t plan your progression around one.",
+        "paragraphs": [
+          "Separate what happened from what supposedly caused it. The official description says word effects stack, so a clip showing several players getting eliminated after a new word appears doesn’t establish that the latest word did it on its own. What was already happening matters, especially if the clip starts just before the eliminations.",
+          "Keep your takeaway as narrow as the claim can support. A word that looked tough to survive in one situation may be worth paying attention to in a similar situation. That’s more useful than calling it the best word outright, which gives you no clue when the same advice would apply."
+        ],
+        "bullets": [
+          "For a strength claim, ask what “OP” means here: hard to avoid, disruptive in that situation, or simply surprising.",
+          "For a mechanic claim, look for an in-game explanation that names the feature and says what it does. A player caption or a dramatic outcome doesn’t establish an unlock or advantage."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Survive Your Ideas have a separate OP mechanic?",
+        "answer": "The official description does not name a separate OP feature, stat, or unlock. It describes random word-writing turns, words coming to life, and hazards stacking over rounds. Treat claims about a distinct OP mechanic as unconfirmed unless the game itself identifies one."
+      },
+      {
+        "question": "What happens after a player writes a word?",
+        "answer": "The official description says the word comes to life, and that words stack as rounds continue. It names tsunami, dinosaur, nuke, and tacos as examples, but does not provide detailed effects or numerical values for them."
+      },
+      {
+        "question": "Which words are confirmed examples in the description?",
+        "answer": "The description names tsunami, dinosaur, nuke, and tacos. These are examples of words players can write; it does not rank them, give their exact effects, or say that any one is an OP choice."
+      }
+    ],
+    "relatedSlugs": [
+      "word",
+      "index",
+      "beginner-guide"
+    ],
+    "lastReviewed": "2026-11-24",
+    "parentSlug": "",
+    "screenshots": []
   }
 ]
